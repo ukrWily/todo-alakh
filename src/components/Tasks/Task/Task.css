@@ -1,9 +1,29 @@
 .task-item {
   margin: 1rem 0;
-  background: #00358b;
-  box-shadow: 0 2px 8px rgba(50, 50, 50, 0.25);
+  /* background: #00358b; */
+  background-color: rgba(55, 55, 255, 0.4);
+  box-shadow: 7px 7px 25px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
-  color: white;
+  /* color: white; */
+  color: #fff;
   padding: 1rem 2rem;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px black;
+  border: 3px solid rgba(50, 50, 50, 0.25);
+  outline: 3px solid whitesmoke;
+  transition: all 0.5s;
+  &:hover {
+    box-shadow: 12px 12px 35px rgba(0, 0, 0, 0.69);
+    transform: scale(1.05);
+    text-shadow: 2px 2px 2px red;
+    font-size: 22px;
+    letter-spacing: 1px;
+    outline: 1px solid whitesmoke;
+    &:active {
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.69);
+      opacity: 0.2;
+    }
+  }
 }
