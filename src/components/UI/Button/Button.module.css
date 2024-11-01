@@ -12,8 +12,12 @@
   outline: none;
 }
 
-.button:hover,
-.button:active {
+.button:hover {
   background: #245fbd;
-  box-shadow: 0 0 8px rgba(50, 50, 50, 0.25);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+.button:active {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+  transform: scale(0.9);
 }
